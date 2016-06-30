@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>練習２</title>
+  </head>
+  <body>
+    <h1>form練習,注文ページ</h1>
+    <form action="rensyu2_1.php" method="post" name="form">
+      <table>
+        <tr>
+          <td>商品</td>
+          <td>価格</td>
+          <td>個数</td>
+        </tr>
+        <tr>
+          <td>カップラーメン</td>
+          <td>150</td>
+          <td>
+            <select name="s01">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>幕の内弁当</td>
+          <td>450</td>
+          <td>
+            <select name="s02">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>お茶</td>
+          <td>130</td>
+          <td>
+            <select name="s03">
+              <option value="0" selected>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <input type="submit" name="sub" value="注文">
+      </p>
+    </form>
+
+  </body>
+</html>

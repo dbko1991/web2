@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>form練習</title>
+</head>
+<body>
+	<h1>form練習</h1>
+	<form method="post" name="f1" action="sampleform1.php">
+		名前：<input type="text" name="name" /><br>
+		パスワード：<input type="password" name="pass" /><br>
+		<input type="radio" name="seibetu" value="男">男性<br>
+		<input type="radio" name="seibetu" value="女">女性<br>
+		<input type="checkbox" name="ok" value="可">部活に参加可<br>
+		住所：<select name="jyusyo">
+			<option value="東京" selected>東京</option>
+			<option value="埼玉">埼玉</option>
+			<option value="千葉">千葉</option>
+		</select><br>
+		<textarea name="message" cols="70" rows="5"></textarea><br>
+		<input type="submit" name="sub" value="OK" /><br>
+	</form>
+</body>
+</html>

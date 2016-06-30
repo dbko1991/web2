@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ユーザー登録</title>
+  </head>
+  <body>
+    <h1>ユーザー登録</h1>
+    <form method="post" name="f1" action="toi02.php">
+      名前：<input type="text" name="name" /><br>
+
+      パスワード：<input type="password" name="pass" /><br>
+
+      性別:<input type="radio" name="seibetu" value="男">男性
+  		<input type="radio" name="seibetu" value="女">女性<br>
+
+      E-mail:<input type="email" name="email"><br>
+      <input type="checkbox" name="ok" value="可">メールに送信可<br>
+
+      住所：<select name="jyusyo">
+  			<option value="東京" selected>東京</option>
+  			<option value="埼玉">埼玉</option>
+  			<option value="千葉">千葉</option>
+      </select><br>
+
+      <input type="submit" name="sub" value="確認" />
+      <input type="reset" value="クリア" /><br>
+    </form>
+  </body>
+</html>
